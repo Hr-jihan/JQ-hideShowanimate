@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Teko&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+/* 
+font-family: 'Teko', sans-serif;
+font-family: 'Tilt Prism', cursive; */
+
+            /* first page */
+
+
+
+.page{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    
+}
+.work1{
+    height:500px;
+    width:900px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border-radius: 30px;
+}
+
+.box1{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    background-color: aquamarine;
+    top: 60px;
+    left: 50px;
+    border-radius: 30px;
+}
+.box2{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    background-color: aquamarine;
+    top: 260px;
+    left: 50px;
+    border-radius: 30px;
+}
+.box3{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    background-color: aquamarine;
+    top: 460px;
+    left: 50px;
+    border-radius: 30px;
+}
+
+
+    /* sea */
+
+
+.boximg1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    transition: 0.3s;
+    border-radius:30px;
+    cursor: pointer;
+}
+.boximg1:hover{
+    width: 65%;
+} 
+.backbox1img{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    border-radius: 30px;
+    
+}
+
+.box1 h3{
+    font-size: 30px;
+    transform: rotate(90deg);
+    margin-top: 30px;
+    position: absolute;
+    top:40px ;
+    left: 230px;
+}
+.sea{
+    position: absolute;
+    height: 500px;
+    width:300px ;
+    background-color:white;
+    left:1000px;
+    border-radius: 0 30px 30px 0;
+    padding: 50px 40px;
+}
+.sea h1{
+    height: 50px;
+    width:200px;
+    margin-top: 20px;
+    text-align: center;
+    line-height:50px ;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+        /* hills */
+
+.boximg2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    transition: 0.3s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.boximg2:hover{
+    width: 65%;
+}
+.backbox2img{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    border-radius: 30px;
+}
+.hills{
+    position: absolute;
+    height: 500px;
+    width:300px ;
+    background-color:white;
+    left:1000px;
+    border-radius: 0 30px 30px 0;
+    padding: 50px 40px;
+}
+.hills h1{
+    height: 50px;
+    width:200px;
+    margin-top: 20px;
+    text-align: center;
+    line-height:50px ;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 11;
+    background-color: white;
+}
+
+
+    
+.box2 h3{
+    font-size: 30px;
+    transform: rotate(90deg);
+    margin-top: 30px;
+    position: absolute;
+    top:40px ;
+    left: 230px;
+    cursor: pointer;
+}
+
+            /* historical place  */
+
+.boximg3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    transition: 0.3s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.boximg3:hover{
+    width: 65%;
+}
+.backbox3img{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    border-radius: 30px;
+}
+.box3 h3{
+    font-size: 30px;
+    transform: rotate(90deg);
+    margin-top: 30px;
+    position: absolute;
+    top:30px ;
+    left: 200px;
+    text-align: center;
+}
+.historical{
+    position: absolute;
+    height: 500px;
+    width:300px ;
+    background-color:white;
+    left:1000px;
+    border-radius: 0 30px 30px 0;
+    padding: 50px 40px;
+}
+.historical h1{
+    font-size: 20px;
+    height: 40px;
+    width:200px;
+    margin-top: 10px;
+    text-align: center;
+    line-height:40px ;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 15;
+    background-color: white;
+}
+
+
+
+                /* map  */
+
+
+.work2{
+    position: relative;
+}
+
+.map{
+    height: 70%;
+    width: 70%;
+    margin-top: 100px;
+    margin-left:80px ;
+
+
+}
+.name{
+    height: 100%;
+    width:300px;
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50px;
+    right: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+.name .chispot{
+    height: 40px;
+    width: 250px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.chittagong li{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.crbicon{
+    
+    cursor: pointer;
+    transition: 1.5s;
+
+}
+.crbpointer{
+    margin-top: 858px;
+    margin-left: -265px;
+    font-size: 30px;
+}
+.crbinfo{
+    height: 270px;
+    width: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: azure;
+    margin-top: 30px;
+    border-radius: 0 30px 0 30px;
+    
+    
+}
+.crbinfo img{
+    height: 150px;
+    width: 200px;
+    border-radius: 0 30px 0 0;
+    
+}
+.crbicon p{
+    font-size: 10px;
+    line-height: 15px;
+}
+.Zela{
+    height: 40px;
+    width: 250px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.use{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 700px;
+    top: 100px;
+    padding:20px 10px;
+
+}
+.use2{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 1100px;
+    top: 30px;
+    padding:20px 10px;
+
+}
+
+
+                /* top 10 spot  */
+
+.page3{
+  position: absolute;
+  top: 2200px;
+  padding: 400px 600px ;
+}
+.top10btn{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.topcox{
+    position: absolute;
+    top: 150px;
+    left: 655px;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.coxinfo{
+    height: 270px;
+    width: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: azure;
+    margin-top: 30px;
+    border-radius: 0 30px 0 30px;
+    margin-left: 120px; 
+    margin-top: 0px;
+    position: absolute;
+    z-index: 99;
+}
+.coxinfo img{
+    height: 150px;
+    width: 280px;
+    border-radius: 0 30px 0 0; 
+}
+.coxinfo p{
+    font-size: 10px;
+    line-height: 15px;
+}
+.topkua{
+    position: absolute;
+    top:230px;
+    left:430px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.topban{
+    position: absolute;
+    top: 390px;
+    left:330px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topmartin{
+    position: absolute;
+    top: 520px;
+    left:320px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topKaptai{
+    position: absolute;
+    top: 660px;
+    left:440px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topsri{
+    position: absolute;
+    top: 740px;
+    left:650px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topsajek{
+    position: absolute;
+    top: 660px;
+    left:850px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topsum{
+    position: absolute;
+    top: 520px;
+    left: 980px;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topsund{
+    position: absolute;
+    top: 390px;
+    left:970px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topmaha{
+    position: absolute;
+    top: 230px;
+    left:900px ;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
